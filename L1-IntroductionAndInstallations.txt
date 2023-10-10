@@ -1,0 +1,20 @@
+INTRODUCTION 
+    JAVA - created by Sun Microsystems in 1995.
+    Application 
+        Backend servers and API - Springboot
+        Mobile Apps -  Java or Kotlin
+        Desktop Apps - Swing JAVAfx
+        Bigdata 
+
+        Features - WORA(Write once run anywhere), Exception ahndling, threads control, OOP, collection API, Robust, Dynamic, Secure
+
+    JDK --> JAVA DEVELOPMENT KIT --> For creating and editing java programmes.
+    JRE --> JAVA RUN TIME ENVIRONMENT --> For compiling and running java programmes.
+
+INSTALLATION 
+    Install JDK and VSCode
+    Set environment variables --> path --> new --> jdk bin
+
+check Installation 
+    java --version 
+    javac --version
