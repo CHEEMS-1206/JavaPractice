@@ -18,6 +18,19 @@ class Variables {
 
         // Booleans
         boolean bl = true; // either true or false, true != 1/0 and false != 1/0 
+
+        // Storing binary(0b) or hex(0x) 
+        int bin = 0b101, hex = 0x12;
+        System.out.println(hex);
+        System.out.println(bin);
+
+        // storing value by dintinguishing
+        int bigVal = 1_00_00_000;
+        double biggerVal = 12E5; // scintific notation on the go support
+        System.out.println(bigVal);
+        System.out.println(biggerVal);
+
+        // literals - every value in java is treated as literals.
     }
 }
 
