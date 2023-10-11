@@ -1,0 +1,66 @@
+Operators in java :-
+
+
+1. Arithmetic Operators
+They are used to perform simple arithmetic operations on primitive data types. 
+    * : Multiplication
+    / : Division
+    % : Modulo
+    + : Addition
+    – : Subtraction
+
+2. Unary Operators
+Unary operators need only one operand. They are used to increment, decrement, or negate a value. 
+    - : negating the values
+    + : concatenate
+    -- : decrement
+    ++ : increment
+    ! : not
+
+3. Assignment Operator
+‘=’ Assignment operator is used to assign a value to any variable. 
+It has right-to-left associativity.
+
+** Assignment operator used along with other operators give compound operators.
+   -=, +=, >=, != etc
+
+4. Relational Operators
+These operators are used to check for relations like equality, greater than, and less than.
+They return boolean results after the comparison
+    >
+    <
+    >=
+    <=
+    !=
+    ==
+
+5. Logical Operators
+These operators are used to perform “logical AND”, "logical Not" and “logical OR” operations.
+    AND = &&
+    OR == ||
+    NOT == !
+
+6. Ternary operator
+The ternary operator is a shorthand version of the if-else statement. It has three operands and hence the name Ternary.
+    condition ? if true : if false;
+
+7. Bitwise Operators
+These operators are used to perform the manipulation of individual bits of a number.
+    AND == &
+    OR == |
+    XOR == ^
+    Complement == ~
+
+8. Shift Operators
+These operators are used to shift the bits of a number left or right, thereby multiplying or dividing the number by two, respectively.
+    << == Left shift operator 
+        shifts the bits of the number to the left and fills 0 on voids left as a result. Similar effect as multiplying the number with some power of two.
+    >> == Signed Right shift
+        shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit depends on the sign of the initial number. Similar effect to dividing the number with some power of two.
+    >>> == Unsigned Right shift
+        shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit is set to 0.
+
+9. instanceof operator
+The instance of the operator is used for type checking.
+It can be used to test if an object is an instance of a class, a subclass, or an interface.
+    objectName instance of class/subclass/interface
