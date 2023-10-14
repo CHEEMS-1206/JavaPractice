@@ -1,4 +1,4 @@
-class ConditionalsInJava {
+public class ConditionalsInJava {
     public static void main(String a[]){
         // Conditionals if, else, else if
         int condition = 2;
